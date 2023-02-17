@@ -8,6 +8,7 @@ import com.quan.extension.SPI;
 import com.quan.remoting.dto.RpcRequest;
 import com.quan.remoting.dto.RpcResponse;
 import com.quan.serialize.Serializer;
+import lombok.extern.slf4j.Slf4j;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -20,7 +21,7 @@ import java.util.concurrent.ThreadLocalRandom;
  *
  * @author Quan
  */
-@SPI
+@Slf4j
 public class KryoSerializer implements Serializer {
 
     /*
