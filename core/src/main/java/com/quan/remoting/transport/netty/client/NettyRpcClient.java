@@ -3,6 +3,7 @@ package com.quan.remoting.transport.netty.client;
 import com.quan.enums.CompressTypeEnum;
 import com.quan.enums.SerializationTypeEnum;
 import com.quan.extension.ExtensionLoader;
+import com.quan.registry.ServiceDiscovery;
 import com.quan.remoting.constants.RpcConstants;
 import com.quan.remoting.dto.RpcMessage;
 import com.quan.remoting.dto.RpcRequest;

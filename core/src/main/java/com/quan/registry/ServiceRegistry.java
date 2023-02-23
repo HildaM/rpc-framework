@@ -1,6 +1,7 @@
 package com.quan.registry;
 
 import com.quan.extension.SPI;
+import com.quan.remoting.dto.RpcRequest;
 
 import java.net.InetSocketAddress;
 
@@ -15,5 +16,4 @@ import java.net.InetSocketAddress;
 public interface ServiceRegistry {
     // 服务注册
     void registerService(String rpcServiceName, InetSocketAddress inetSocketAddress);
-
 }
